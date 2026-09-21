@@ -12,25 +12,24 @@ Backend and Frontend both working perfectly!
 
 [Upload your screenshot here - the one with Aurora Grand Hotel chat]
 
+
 ## How to Run
 
 ### Backend
-
+```bash
 cd backend
-
 pip install -r requirements.txt
-
 python -m uvicorn main:app --reload --port 8000
+```
 Backend runs at: http://localhost:8000/docs
 
 
 ### Frontend
+```bash
 cd frontend
-
 npm.cmd install
-
 npm.cmd run dev
-
+```
 Frontend runs at: http://localhost:5173
 
 ## Tech Stack
