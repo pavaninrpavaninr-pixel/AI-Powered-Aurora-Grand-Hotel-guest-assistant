@@ -1,0 +1,20 @@
+{
+  "hotelName": "Aurora Grand Hotel",
+  "location": "Bengaluru, India",
+  "policies": {
+    "checkIn": "Check-in starts at 2:00 PM.",
+    "checkOut": "Check-out is until 11:00 AM.",
+    "breakfast": "Breakfast is included with Deluxe and Family Room bookings.",
+    "cancellation": "Free cancellation is available up to 24 hours before check-in. Late cancellations may incur one night's charge."
+  },
+  "amenities": {
+    "pool": "Yes, we have an outdoor swimming pool open from 6:00 AM to 9:00 PM.",
+    "wifi": "Complimentary Wi-Fi is available throughout the hotel.",
+    "parking": "Free on-site parking is available for hotel guests."
+  },
+  "rooms": [
+    {"name":"Standard Room","capacity":2,"pricePerNight":2500,"description":"Comfortable room for up to 2 guests."},
+    {"name":"Deluxe Room","capacity":3,"pricePerNight":3800,"description":"Spacious room for up to 3 guests; breakfast included."},
+    {"name":"Family Room","capacity":4,"pricePerNight":5200,"description":"Family-friendly room for up to 4 guests; breakfast included."}
+  ]
+}
