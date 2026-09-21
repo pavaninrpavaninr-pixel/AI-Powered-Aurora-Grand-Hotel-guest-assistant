@@ -8,7 +8,13 @@ import json, logging, re
 logging.basicConfig(level=logging.INFO)
 app = FastAPI(title='Hotel Guest Assistant API', version='1.0.0')
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_credentials=True, allow_methods=['*'], allow_headers=['*'])
+@app.get("/")
+def home():
+    return {"message": "Aurora Grand Hotel API is LIVE 🚀", "docs": "/docs", "status": "Running"}
 
+@app.get("/health")
+def health():
+    return {"status": "ok"}
 KB = json.loads((Path(__file__).parent.parent / 'data' / 'hotel.json').read_text())
 
 class AvailabilityRequest(BaseModel):
