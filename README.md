@@ -16,14 +16,20 @@ Backend and Frontend both working perfectly!
 
 ### Backend
 cd backend
+
 pip install -r requirements.txt
+
 python -m uvicorn main:app --reload --port 8000
+
 Backend runs at: http://localhost:8000/docs
 
 ### Frontend
 cd frontend
+
 npm.cmd install
+
 npm.cmd run dev
+
 Frontend runs at: http://localhost:5173
 
 ## Tech Stack
