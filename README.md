@@ -13,7 +13,11 @@ Backend and Frontend both working perfectly!
 - "Do you have a swimming pool?" -> "outdoor pool open 6 AM to 9 PM"
 - "is breakfast included?" -> "Breakfast included with Deluxe Room"
 
-[Upload your screenshot here - the one with Aurora Grand Hotel chat]
+  ### 🔴 Live Demo
+Frontend (Vercel): https://ai-powered-aurora-grand-hotel-guest.vercel.app
+Backend (Render): https://ai-powered-aurora-grand-hotel-guest.onrender.com
+Backend Docs: https://ai-powered-aurora-grand-hotel-guest.onrender.com/docs
+
 
 
 ## How to Run
