@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {createRoot} from 'react-dom/client';
 import './style.css';
-const API='http://localhost:8000/api';
+const API='https://ai-powered-aurora-grand-hotel-guest.onrender.com/api';
 function App(){
  const [messages,setMessages]=useState([{role:'assistant',text:'Welcome to Aurora Grand Hotel! Ask me about rooms, amenities, policies, or availability.'}]);
  const [input,setInput]=useState(''); const [loading,setLoading]=useState(false); const [form,setForm]=useState({checkIn:'',checkOut:'',adults:2}); const [showForm,setShowForm]=useState(false);
