@@ -15,7 +15,9 @@ Backend and Frontend both working perfectly!
 
   ### 🔴 Live Demo
 Frontend (Vercel): https://ai-powered-aurora-grand-hotel-guest.vercel.app
+
 Backend (Render): https://ai-powered-aurora-grand-hotel-guest.onrender.com
+
 Backend Docs: https://ai-powered-aurora-grand-hotel-guest.onrender.com/docs
 
 
